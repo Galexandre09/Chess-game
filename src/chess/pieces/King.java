@@ -12,12 +12,10 @@ public class King extends ChessPiece {
 	}
 	
 	@Override
-	/*public String toString() {
-		return"♚";
-	}*/
-	
+
 	public String toString() {
-		return "K";
+		//return "K";
+		return"♚";
 	}
 	
 	private boolean canMove(Position position) {
